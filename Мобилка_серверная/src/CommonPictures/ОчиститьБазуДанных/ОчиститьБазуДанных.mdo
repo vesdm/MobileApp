@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e901d94-ca84-4028-b53e-0945fbba88cd">
+  <name>ОчиститьБазуДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очистить базу данных</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

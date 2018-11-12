@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9f41e7f-cf90-4b9b-ab5f-c9eb04d9c33e">
+  <name>НайтиФоновоеЗадание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Найти фоновое задание</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

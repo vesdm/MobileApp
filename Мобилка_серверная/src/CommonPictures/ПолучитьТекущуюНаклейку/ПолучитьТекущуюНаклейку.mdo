@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8386f5aa-4704-49e2-b7fc-0ad5859e5869">
+  <name>ПолучитьТекущуюНаклейку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получить текущую наклейку</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

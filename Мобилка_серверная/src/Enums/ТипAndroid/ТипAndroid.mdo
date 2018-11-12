@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58146c4a-cc49-4b8f-91dc-40c79972bf3b">
+  <producedTypes>
+    <refType typeId="13edfd0d-eca1-44b9-8acd-0b2bd7d2dcc0" valueTypeId="8bfe526d-323d-47e8-884f-660d455e64f2"/>
+    <listType typeId="9ec709a3-840b-444d-8762-5a107af0fe52" valueTypeId="596c8144-ebf2-4add-9ab5-bc439db81208"/>
+    <managerType typeId="d0b1e25d-7636-4f6e-8e82-84b4dd897802" valueTypeId="8ce12923-84d2-41ef-9e49-9d181e59cd76"/>
+  </producedTypes>
+  <name>ТипAndroid</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип android</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="740d8258-0a66-4954-94f1-f7aae8a4991e">
+    <name>String</name>
+    <synonym>
+      <key>ru</key>
+      <value>String</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f83891a3-cdda-4f19-986d-6279f1fb3eab">
+    <name>int</name>
+    <synonym>
+      <key>ru</key>
+      <value>int</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c91ba57f-809f-48be-813d-52702339b8e3">
+    <name>Uri</name>
+    <synonym>
+      <key>ru</key>
+      <value>Uri</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7a922185-2596-41c1-9323-3588f514fbca">
+    <name>boolean</name>
+    <synonym>
+      <key>ru</key>
+      <value>boolean</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="41892bbe-96ce-4228-b0b1-255135e199e0">
+    <name>byte</name>
+    <synonym>
+      <key>ru</key>
+      <value>byte</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="fb5eca42-fa2c-414d-aaea-e04b53550a49">
+    <name>char</name>
+    <synonym>
+      <key>ru</key>
+      <value>char</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="8b6be620-cc41-41ab-b6e6-bb20e252c0bc">
+    <name>double</name>
+    <synonym>
+      <key>ru</key>
+      <value>double</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="4c1b5847-a451-4844-9d6b-d03795751c8d">
+    <name>float</name>
+    <synonym>
+      <key>ru</key>
+      <value>float</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="deab005a-3f60-481a-9cd8-b87d9166d34f">
+    <name>long</name>
+    <synonym>
+      <key>ru</key>
+      <value>long</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b6b138f6-f259-423d-ad26-e4d4356e18ef">
+    <name>short</name>
+    <synonym>
+      <key>ru</key>
+      <value>short</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="627b0aa2-c7ba-438f-ab06-6416170c92e7">
+    <name>Bitmap</name>
+    <synonym>
+      <key>ru</key>
+      <value>Bitmap</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="6b3416bb-f588-4acc-b11d-83dd1d77e1a2">
+    <name>Account</name>
+    <synonym>
+      <key>ru</key>
+      <value>Account</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2df89c01-f445-4085-a4bd-2ada5829edce">
+    <name>Address</name>
+    <synonym>
+      <key>ru</key>
+      <value>Address</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e3bf5260-1ce6-49f2-8203-f019a9313919">
+    <name>Location</name>
+    <synonym>
+      <key>ru</key>
+      <value>Location</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

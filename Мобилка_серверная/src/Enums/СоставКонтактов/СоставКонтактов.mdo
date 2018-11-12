@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5313a9a2-156b-452b-8cdc-5d03874e6320">
+  <producedTypes>
+    <refType typeId="ec3386ae-cf51-40c3-aeef-3bb112a42f44" valueTypeId="87883638-b330-4d93-8e7e-9d449179ce9a"/>
+    <listType typeId="26afb97a-4d5f-4e60-b970-083d80731843" valueTypeId="9856a57a-f69a-4bd3-9311-e802e963b9c5"/>
+    <managerType typeId="6eb2ac9e-5613-4220-830f-e7dd29b8c366" valueTypeId="768dbf1b-79b7-4f82-8214-af121b0ddc6b"/>
+  </producedTypes>
+  <name>СоставКонтактов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состав контактов</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c8631c31-96b4-4197-b685-b5dea082b11d">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e47510ca-ebcb-49a4-b679-a2163a2b89ec">
+    <name>Отчество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчество</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

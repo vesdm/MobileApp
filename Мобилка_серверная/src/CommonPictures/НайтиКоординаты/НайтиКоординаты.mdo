@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aed714a3-a969-4d10-b756-426f89bbcd86">
+  <name>НайтиКоординаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Найти координаты</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

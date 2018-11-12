@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9fdeb831-bc69-4d92-9333-8f7f869306ff">
+  <name>DT</name>
+  <synonym>
+    <key>ru</key>
+    <value>DT</value>
+  </synonym>
+  <comment></comment>
+  <rootURL>DT</rootURL>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="7eac60de-f185-49e6-b7e6-98b14bbb937b">
+    <name>SomeData</name>
+    <synonym>
+      <key>ru</key>
+      <value>Some data</value>
+    </synonym>
+    <comment></comment>
+    <template>/SD/{ID}</template>
+    <methods uuid="199c4a9c-5479-4a0e-8a07-b9ffa1fdf3ca">
+      <name>PostData</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post data</value>
+      </synonym>
+      <comment></comment>
+      <httpMethod>POST</httpMethod>
+      <handler>SomeDataPostData</handler>
+    </methods>
+    <methods uuid="38b2acd6-2423-4289-b4f2-c956adc34a7c">
+      <name>GetData</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get data</value>
+      </synonym>
+      <comment></comment>
+      <handler>SomeDataGetData</handler>
+    </methods>
+    <methods uuid="8a9c1c3f-2ed0-49e5-90d0-344692519447">
+      <name>Connection</name>
+      <synonym>
+        <key>ru</key>
+        <value>Connection</value>
+      </synonym>
+      <comment></comment>
+      <httpMethod>Any</httpMethod>
+      <handler>TestConnection</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="300261cc-66f3-450b-acb0-b5e65ceefa63">
+    <name>Test</name>
+    <synonym>
+      <key>ru</key>
+      <value>Test</value>
+    </synonym>
+    <comment></comment>
+    <template>/*</template>
+    <methods uuid="33305e2f-782c-4757-b6aa-0b8877c43ef7">
+      <name>Connection</name>
+      <synonym>
+        <key>ru</key>
+        <value>Connection</value>
+      </synonym>
+      <comment></comment>
+      <httpMethod>Any</httpMethod>
+      <handler>TestConnection</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

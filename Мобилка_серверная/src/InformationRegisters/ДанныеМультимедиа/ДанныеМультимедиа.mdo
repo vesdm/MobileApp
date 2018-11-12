@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c590d2a6-0de9-4668-9a5a-633f38ee4d4b">
+  <producedTypes>
+    <selectionType typeId="a414da6a-42e5-4e81-b54d-d91c1dd51bc4" valueTypeId="743c35d4-2169-4931-93e0-9df42bc62461"/>
+    <listType typeId="5f92e297-db04-4648-8258-37e7ea5afc2f" valueTypeId="21269163-48ae-4410-931d-8b4718f81273"/>
+    <managerType typeId="ac56013f-0e2c-4184-ba9e-7201cf846141" valueTypeId="91e7e792-4c62-4342-8013-1450717e94ad"/>
+    <recordSetType typeId="c9cf4fcc-234a-4943-8701-6e0b119022fa" valueTypeId="4e4f102d-ae2a-4f2d-9a9e-de27f6d9ce8d"/>
+    <recordKeyType typeId="0e441b07-ae9a-4b69-91b3-33618ed36978" valueTypeId="0bd2771b-35d4-4618-8fc6-58f8ad25b77f"/>
+    <recordType typeId="6b942427-44b0-4f29-8111-cd5b4b687436" valueTypeId="e2f45dea-01f8-41b6-8da7-873ca262198c"/>
+    <recordManagerType typeId="f59215a4-5221-4361-903e-da13c79a583c" valueTypeId="8da80023-eaff-4fc8-b921-6c2f855b3e38"/>
+  </producedTypes>
+  <name>ДанныеМультимедиа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные мультимедиа</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ДанныеМультимедиа.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ДанныеМультимедиа.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0f19b589-2a8b-458d-a277-dc3bb18fddaf">
+    <name>Данные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ca0c37d2-8658-4dd3-a38a-b7319ec23267">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="40425ae6-b8ce-42a2-9729-8a8539861ef5">
+    <name>РасширениеФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширение файла</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="580cddd3-0e27-49d6-ba44-99d64c9a668e">
+    <name>ТипДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип данных</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ТипХранимыхДанных</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="273ed217-550f-4576-bcab-a5d38961791f">
+    <name>РазмерДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер данных</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>25</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="cf14e180-283d-451f-af15-12e08e7bdaa4">
+    <name>UID</name>
+    <synonym>
+      <key>ru</key>
+      <value>UID</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>UUID</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="706ba618-0888-461c-a30f-95b19324e58c">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ef4bd279-2bd1-445c-9afc-c0f1e8515bed">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

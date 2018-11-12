@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b01bde6-1cad-47fb-8f98-da01d1e0af44">
+  <name>ЗаписьКоординат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запись координат</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

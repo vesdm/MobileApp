@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56580bf5-c854-448a-98b5-28401aff9a34">
+  <name>Sign</name>
+  <synonym>
+    <key>ru</key>
+    <value>Sign</value>
+  </synonym>
+  <comment></comment>
+  <rootURL>SG</rootURL>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="9ec9ba34-a5d2-4087-8548-c11fcb05b1e3">
+    <name>SG</name>
+    <synonym>
+      <key>ru</key>
+      <value>SG</value>
+    </synonym>
+    <comment></comment>
+    <template>/*</template>
+    <methods uuid="9d3fa8d3-de95-4202-a98b-6dff089c7119">
+      <name>GetSign</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get sign</value>
+      </synonym>
+      <comment></comment>
+      <handler>SGGetSign</handler>
+    </methods>
+    <methods uuid="0af5918c-ad63-4b12-8a9f-1c8e888d0df1">
+      <name>PostSign</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post sign</value>
+      </synonym>
+      <comment></comment>
+      <httpMethod>POST</httpMethod>
+      <handler>SGPostSign</handler>
+    </methods>
+    <methods uuid="55ab1a33-36f9-453d-a0ca-b13c9342e95c">
+      <name>Options</name>
+      <synonym>
+        <key>ru</key>
+        <value>Options</value>
+      </synonym>
+      <comment></comment>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>SGOptions</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

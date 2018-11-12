@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5ea3167-d2aa-4245-b11c-38fd7226669c">
+  <producedTypes>
+    <managerType typeId="a04fbb21-d6cd-4773-ac00-7e9791513e00" valueTypeId="32d72bae-ff9e-4881-9f96-76f12b765967"/>
+    <valueManagerType typeId="96812f29-ff0e-4e62-b4a3-e38c89856676" valueTypeId="0c00b9c7-abf5-46b4-a3d1-18eaf06d76c6"/>
+  </producedTypes>
+  <name>МобильнаяОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильная ОС</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>EnumRef.МобильныеОС</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

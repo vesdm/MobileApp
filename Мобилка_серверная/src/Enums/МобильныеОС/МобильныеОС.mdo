@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="469e52ab-5261-47c1-bbdf-66e1d6249e33">
+  <producedTypes>
+    <refType typeId="c001025e-c220-406e-9745-417d7be72278" valueTypeId="be81b63d-861a-4938-a0d8-0954f4b491df"/>
+    <listType typeId="6bcfcc62-f765-40d6-8d40-421e4213c1d2" valueTypeId="ac8c7672-0b56-4115-a1b9-a6005912c72b"/>
+    <managerType typeId="52e13043-fe4a-4053-8fba-483442a07eff" valueTypeId="a9ed2175-0052-465f-8211-5f89e90d8c8a"/>
+  </producedTypes>
+  <name>МобильныеОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильные ОС</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c2a2793f-d53c-47c6-9ed9-32b5dc19091b">
+    <name>Windows</name>
+    <synonym>
+      <key>ru</key>
+      <value>Windows</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3295e086-b1b3-49f7-ba78-8e15156380a1">
+    <name>Android</name>
+    <synonym>
+      <key>ru</key>
+      <value>Android</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="73836da6-896a-46ed-9098-90aefff3d285">
+    <name>iOS</name>
+    <synonym>
+      <key>ru</key>
+      <value>I OS</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

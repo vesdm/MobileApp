@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc7d2de6-e17b-4ff8-aaed-7222e098ebc1">
+  <producedTypes>
+    <selectionType typeId="887fbc6f-72f9-45a0-aeeb-be5053af0870" valueTypeId="fc386a58-226f-4bac-9168-f9f007a46d45"/>
+    <listType typeId="ca473342-7905-4386-8f38-4f929a98471a" valueTypeId="393f610c-7aac-475c-9b46-4765ef285f26"/>
+    <managerType typeId="2f921824-bb01-49d0-8804-6b4ba02d6e28" valueTypeId="6d260b6a-0f01-4c76-8155-573a456b7b99"/>
+    <recordSetType typeId="25fd6c7c-d1b5-48e3-af68-c189bc21b534" valueTypeId="df06a833-bbe0-47d1-a335-a97ad6557437"/>
+    <recordKeyType typeId="213cf805-959f-4c16-8772-79189671df5c" valueTypeId="8ae1921e-2cc1-4212-90f7-8624120f22d7"/>
+    <recordType typeId="832d104b-a435-44ee-9d3f-e4b743c99297" valueTypeId="1443c3c7-4a82-41c2-9623-23e50d56bdee"/>
+    <recordManagerType typeId="53f91b61-fa3a-460c-9b86-f317c145be15" valueTypeId="41b5bd82-c8bf-4fd3-acd1-d635825300e4"/>
+  </producedTypes>
+  <name>ЖурналРезультатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал результатов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c9124bae-5d6f-4179-b438-6a53cae39e38">
+    <name>Данные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="e687d511-f471-4527-a963-e9621f10c3f3">
+    <name>ID</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>UUID</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

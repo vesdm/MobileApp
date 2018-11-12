@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1e5ea4b-c433-471f-a80f-9c9f4f179d1d">
+  <producedTypes>
+    <refType typeId="fac9f43c-ab1a-4630-b17b-ee3889b213bc" valueTypeId="ba45a573-db1a-4478-a203-c72ed99d8ed3"/>
+    <listType typeId="803c4fcf-0a4b-4b38-a22d-d8cc61b3190f" valueTypeId="feec2f16-d734-4932-b878-5b0b4121d3b7"/>
+    <managerType typeId="41f276c5-0754-4b38-b61d-d167b3c75362" valueTypeId="f33ec239-50c2-4263-9308-ba01464a61db"/>
+  </producedTypes>
+  <name>ТипХранимыхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип хранимых данных</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="63e5c8fb-2a99-461f-b850-91d0c8b62b59">
+    <name>Видео</name>
+    <synonym>
+      <key>ru</key>
+      <value>Видео</value>
+    </synonym>
+    <comment>video/*</comment>
+  </enumValues>
+  <enumValues uuid="6ed624a8-9968-4065-8733-77dda1db0c1e">
+    <name>Аудио</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аудио</value>
+    </synonym>
+    <comment>audio/*</comment>
+  </enumValues>
+  <enumValues uuid="59f437cc-1596-417a-a48c-24e5a1e5022f">
+    <name>Фото</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фото</value>
+    </synonym>
+    <comment>image/*</comment>
+  </enumValues>
+</mdclass:Enum>

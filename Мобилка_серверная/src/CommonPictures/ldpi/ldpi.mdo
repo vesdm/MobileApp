@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c980a0cd-fe3e-4ec1-9e6b-e07b1fc4b927">
+  <name>ldpi</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ldpi</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

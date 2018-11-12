@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="959969ee-d69e-47be-94b1-5cee6c4a76f0">
+  <name>WebSearch</name>
+  <synonym>
+    <key>ru</key>
+    <value>Web search</value>
+  </synonym>
+  <comment></comment>
+  <rootURL>WS</rootURL>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="6a0ebd63-dde5-4d47-8564-10b4d374194b">
+    <name>WebSearch</name>
+    <synonym>
+      <key>ru</key>
+      <value>Web search</value>
+    </synonym>
+    <comment></comment>
+    <template>/*</template>
+    <methods uuid="022f52a3-b825-4912-86d5-e8a001307849">
+      <name>WebSearchPOST</name>
+      <synonym>
+        <key>ru</key>
+        <value>Web search POST</value>
+      </synonym>
+      <comment></comment>
+      <httpMethod>POST</httpMethod>
+      <handler>WebSearchPOST</handler>
+    </methods>
+    <methods uuid="d379e294-6d61-4946-839c-c69ab1cb7420">
+      <name>WebSearchGET</name>
+      <synonym>
+        <key>ru</key>
+        <value>Web search GET</value>
+      </synonym>
+      <comment></comment>
+      <handler>WebSearchGET</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

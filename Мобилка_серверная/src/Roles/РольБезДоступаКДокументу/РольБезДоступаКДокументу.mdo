@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd2a1a8c-b945-4649-a3a9-ff0671818b14">
+  <name>РольБезДоступаКДокументу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роль без доступа к документу</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

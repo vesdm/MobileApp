@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2ea6623-718d-4a53-8e80-8143bc31034e">
+  <producedTypes>
+    <objectType typeId="b6de6d27-28eb-46f8-92f6-27714285d225" valueTypeId="a84f5d54-0051-49b2-b1c0-de37f5bd5c98"/>
+    <managerType typeId="11d42414-0294-4dae-a6c6-6e16378a303c" valueTypeId="e17ccf6c-bdcf-4c3c-a0af-41e2359b425c"/>
+  </producedTypes>
+  <name>НовоеВФормах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Новое в формах</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.НовоеВФормах.Form.ОбработкаПоворотаЭкрана</defaultForm>
+  <forms uuid="4e82a443-cffd-4b19-b271-21318811957a">
+    <name>ОбработкаПоворотаЭкрана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка поворота экрана</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e37cc877-42f7-41dd-a323-7e5a4048e674">
+    <name>ВсеВидыОтображенияСтраниц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Все виды отображения страниц</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="94ad3e5b-75ff-4ebe-8198-63870fffa64a">
+    <name>РаботаСКартинками</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа с картинками</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f23fc4c6-d548-4a25-a456-baa1a57296d6">
+    <name>РаботаСТаблицами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа с таблицами</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

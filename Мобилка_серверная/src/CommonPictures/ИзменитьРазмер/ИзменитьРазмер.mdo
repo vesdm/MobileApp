@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3528d4d3-4875-4198-99e5-15bd1c4d4ea2">
+  <name>ИзменитьРазмер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменить размер</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b64448b-2b6a-429c-ae82-81bc5b596446">
+  <name>ПлюсКакАльфа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Плюс как альфа</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

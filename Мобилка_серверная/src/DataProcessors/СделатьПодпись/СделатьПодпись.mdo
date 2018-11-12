@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e410de46-524f-4d23-a1c0-772f1e4e0fe4">
+  <producedTypes>
+    <objectType typeId="29f41731-8593-4744-a9e8-6bbe3f0eca9a" valueTypeId="0b4477da-af1a-4fb5-9700-7d4cd7722afc"/>
+    <managerType typeId="089373e8-4769-4f61-978c-e5723fa699c6" valueTypeId="11f23faf-75ba-4f2f-ae94-01b811719cbd"/>
+  </producedTypes>
+  <name>СделатьПодпись</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сделать подпись</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СделатьПодпись.Form.Форма</defaultForm>
+  <forms uuid="34458fed-e46f-45a5-b2ad-eb922592e5df">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="30732701-f8a4-412e-b541-f2d2d871fddc">
+    <name>ПриложениеДляПодписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приложение для подписи</value>
+    </synonym>
+    <comment></comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="55902260-51e8-4d8b-a517-3963f48df47d">
+    <name>ШаблонДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон документа</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="43310b54-ef79-43eb-9376-1f8418ccaacf">
+    <name>ШаблонДокументаДляВеб</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон документа для веб</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:DataProcessor>

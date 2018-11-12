@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f52e25b6-a7c5-44c1-8624-19c4f916da0f">
+  <name>ОтменитьУведомление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отменить уведомление</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>
